@@ -1,0 +1,46 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+
+.wrapper {
+    background-color: #333;
+    min-height: 100%;
+}
+.page {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+    padding: 20px 30px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+.hover {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+    will-change: transform;
+    overflow: hidden;
+}
+.hover__text {
+    color: #333;
+    padding: 20px 30px;
+    display: block;
+    will-change: transform;
+}
